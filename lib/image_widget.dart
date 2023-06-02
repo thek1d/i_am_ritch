@@ -13,8 +13,8 @@ class MyImageProvider extends StatelessWidget {
         backgroundColor: Colors.blueGrey[900],
       ),
       body: Center(
-        child: Image.network(
-          'https://www.sciencenews.org/wp-content/uploads/2022/11/top-sapce-images_feat-1030x580.jpg',
+        child: Image.asset(
+          'images/diamond.png',
         ),
       ),
       backgroundColor: const Color.fromARGB(
